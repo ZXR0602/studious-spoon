@@ -6,7 +6,7 @@ set InstallPath-(:PathiTolSCUMlServerlInstoll
 ：：Check and update SCUM server
 "XSteanCMDPath%)steancmd, exe" tforce_instoll_dir "%InstollPath%" +login anonymous tapp_update 3792589 +quit
 
-cd /d "XServerPathx
+cd /d "XServerPath%"
 start SCUMServer, exe -log
 
 :: Additionml startup arguments;
@@ -16,5 +16,5 @@ start SCUMServer, exe -log
 ::
 ::-MaxPlayers-64        ：Override max players set in ServerSettings, ini
 ::
-:： -nobattleye          :Lounch server without Battleye (not reconmended)
+:: -nobattleye          :Lounch server without Battleye (not reconmended)
 pause
